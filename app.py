@@ -61,7 +61,7 @@ html_content = """
 <body>
     <img src="https://cdn.statically.io/gh/devfestkolkata2022/assets/c70b81ad6c87672b1da3fe763e929092170b9967/images/gdg-logo.svg" alt="GDG Logo" class="logo">
     <div class="button-container">
-        <p>Random String</p>
+        <p>Welcome to Devfest</p>
     </div>
 </body>
 </html>
