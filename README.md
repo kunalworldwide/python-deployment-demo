@@ -91,4 +91,4 @@ To run the Flask application defined in `app.py`, follow these steps:
 ## Collaborators
 
 - [Santanu Kumar Das](https://github.com/santanukumardas) - Contributed to the project's development and design.
-- [Kunal Kumar](https://github.com/kunalworldwide) - Assisted in refining features and testing.
+- [Kunal Das](https://github.com/kunalworldwide) - Assisted in refining features and testing.
