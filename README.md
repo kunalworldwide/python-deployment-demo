@@ -43,3 +43,7 @@ This workflow ensures that every push to main or manual dispatch is built, teste
 
 ## Testing
 Run the provided test suite with: `python test_app.py`
+
+## Collaborators
+- [Santanu Kumar Das](https://github.com/santanukumardas) - Contributed to the project's development and design.
+- [Kunal Kumar](https://github.com/kunalworldwide) - Assisted in refining features and testing.
