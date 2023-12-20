@@ -1,0 +1,11 @@
+runtime: python310
+entrypoint: gunicorn -b :$PORT app:app
+
+instance_class: F1
+
+env_variables:
+  PORT: 8080
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 2
