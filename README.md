@@ -42,8 +42,53 @@ Activates only if the test job succeeds. It again checks out the code, sets up G
 This workflow ensures that every push to main or manual dispatch is built, tested, and, if successful, deployed automatically.
 
 ## Testing
-Run the provided test suite with: `python test_app.py`
+To run the Flask application defined in `app.py`, follow these steps:
 
+### Prerequisites
+1. **Python**: Ensure you have Python installed on your system. This project requires Python 3.6 or higher. You can download Python from [python.org](https://www.python.org/downloads/).
+
+2. **pip**: Ensure you have pip, the Python package installer, which usually comes with Python.
+
+3. **Virtual Environment (Optional but Recommended)**: It's a good practice to use a virtual environment to manage dependencies for your project. You can create one using Python's built-in `venv` module:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+   This command creates a new virtual environment named `venv` and activates it.
+
+### Installation Steps
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/kunalworldwide/python-deployment-demo.git
+   cd python-deployment-demo
+
+2. **Install Dependencies**: Install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the Application
+1. **Set Environment Variables**: Before running the app, you need to set the `FLASK_APP` environment variable to tell Flask which file to run. In your terminal, execute:
+   ```bash
+   export FLASK_APP=app.py  # On Windows, use `set FLASK_APP=app.py`
+   ```
+
+2. **Run the Flask Application**: Now, you can start the Flask application by running:
+   ```bash
+   flask run
+   ```
+   Alternatively, you can directly run `app.py` if it has an executable script at the bottom:
+   ```bash
+   python app.py
+   ```
+
+3. **Access the Application**: Once the application is running, you can access it by navigating to `http://localhost:5000` in your web browser (or the port you have configured, if different).
+
+### Notes
+- Ensure that the `app.py` file is in the root of your project directory or specify the correct path while setting the `FLASK_APP` environment variable.
+- If you encounter any issues, check the console for error messages which can help in troubleshooting.
 ## Collaborators
+
 - [Santanu Kumar Das](https://github.com/santanukumardas) - Contributed to the project's development and design.
 - [Kunal Kumar](https://github.com/kunalworldwide) - Assisted in refining features and testing.
