@@ -88,6 +88,7 @@ To run the Flask application defined in `app.py`, follow these steps:
 ### Notes
 - Ensure that the `app.py` file is in the root of your project directory or specify the correct path while setting the `FLASK_APP` environment variable.
 - If you encounter any issues, check the console for error messages which can help in troubleshooting.
+  
 ## Collaborators
 
 - [Santanu Kumar Das](https://github.com/santanukumardas) - Contributed to the project's development and design.
